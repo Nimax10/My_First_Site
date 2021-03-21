@@ -111,19 +111,3 @@ h2 {
 	font-weight: bold;
 	color: rgb(62, 67, 87) 
 }
-.application {
-	background-color: rgba(62, 67, 120, 0.95);
-	text-align: center;
-	padding-top: 1px;
-	padding-left: 400px;
-	padding-right: 400px;
-	padding-bottom: 45px;
-	font-size: 25px;
-	line-height: 1.5;
-	color: white;
-}
-.applic {
-	display: grid;
-  	grid-template-columns: 1fr 1fr;
-  	gap: 0px;
-}
