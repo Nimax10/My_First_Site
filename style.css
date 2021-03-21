@@ -1,0 +1,129 @@
+@font-face {
+    font-family: Cyntho Next Slab Light;
+    src: url(fonts/Cyntho Next Slab.ttf);
+   }
+.anchor-link {
+	margin-right: 10px;
+	color: rgb(255, 255, 255);
+	text-shadow: 5px 8px 25px black;
+	font-size: 28px;
+}
+body {
+	margin: 0px;
+	font-family: "Gotham Pro", sans-serif;
+	background: url('img/140520040129.jpg') top center no-repeat;
+	background-size: 100%;
+}
+header {
+	background: linear-gradient(to left, rgba(120, 120, 120, 0.8), rgba(160, 160, 160, 0.8));
+	font-size: 30px;
+	text-align: center;
+	padding: 15px;
+	position: fixed;
+	width: 100%;
+	position: fixed;
+	top: 0px;
+}
+.first-hello {
+	margin-top: 60px;
+    background: linear-gradient(to left, rgba(120, 120, 120, 0.3), rgba(160, 160, 160, 0.3));
+}
+.hello {
+	font-size: 75px;
+	text-align: center;
+	padding: 15px;
+	text-shadow: 5px 8px 50px black;
+	color: rgb(255, 255, 255);
+}
+.html-ver {
+	font-size: 35px;
+	color: rgb(255, 220, 150);
+}
+.hcp {
+	font-size: 35px;
+	text-align: center;
+	text-shadow: 5px 8px 50px black;
+	color: rgb(150, 250, 255);
+}
+.pad1 {
+	padding: 15px;
+	padding-top: 160px;
+	padding-bottom: 130px;
+}
+.about-me {
+	background-color: white;
+	padding-top: 1px;
+	padding-bottom: 45px;
+	font-size: 19px;
+	text-align: center;
+	padding-left: 400px;
+	padding-right: 400px;
+	line-height: 1.5;
+}
+h2 {
+	font-size: 40px;
+	text-align: center;
+}
+.my-skills{
+	background-image: linear-gradient(to left, rgba(120, 120, 120, 0.5), rgba(160, 160, 160, 0.5)), 
+						url('img/worker-typing-on-a-laptop.jpg');
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: 100%;
+	padding-top: 1px;
+	font-size: 25px;
+	color: rgb(255, 255, 255);
+	text-shadow: 5px 8px 50px black;
+	text-align: center;
+	padding-left: 400px;
+	padding-right: 400px;
+	line-height: 1.5;
+	z-index: 2;
+	padding-bottom: 45px;
+}
+.list {
+	display: grid;
+  	grid-template-columns: 1fr 1fr 1fr;
+  	gap: 25px;
+}
+.font1 {
+	font-family: "Cyntho Next Slab Light";
+	font-size: 23px;
+}
+.contacts {
+	background-color: white;
+	text-align: center;
+	padding-top: 1px;
+	padding-left: 400px;
+	padding-right: 400px;
+	padding-bottom: 45px;
+	font-size: 25px;
+	line-height: 1.5;
+	color: rgb(62, 67, 87) 
+}
+.cont {
+	display: grid;
+  	grid-template-columns: 1fr 1fr 1fr;
+  	gap: 100px;
+}
+.continfo {
+	font-size: 20px;
+	font-weight: bold;
+	color: rgb(62, 67, 87) 
+}
+.application {
+	background-color: rgba(62, 67, 120, 0.95);
+	text-align: center;
+	padding-top: 1px;
+	padding-left: 400px;
+	padding-right: 400px;
+	padding-bottom: 45px;
+	font-size: 25px;
+	line-height: 1.5;
+	color: white;
+}
+.applic {
+	display: grid;
+  	grid-template-columns: 1fr 1fr;
+  	gap: 0px;
+}
